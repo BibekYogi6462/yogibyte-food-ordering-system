@@ -1,163 +1,72 @@
-🍔 Food Ordering System (Android App)
+YogiByte - Food Ordering System (Android App)
 
-An Android-based Food Ordering System developed using Java and SQLite.
-The app allows users to sign up, log in, browse restaurants, order food, view offers, manage bookings, and get help & support through an intuitive mobile interface.
+An Android-based Food Ordering System built using Java and SQLite.
+This app allows users to browse restaurants, order food, manage bookings, and explore offers through a smooth and user-friendly interface.
 
-📱 App Features
-
+📱 Features
 🚀 Splash Screen
-
-🔐 User Authentication
-
-Login
-
-Signup
-
-🏠 Home Screen
-
-Food categories
-
-Featured items
-
+🔐 User Authentication (Login & Signup)
+🏠 Home Screen with categories & featured items
 🍽️ Order Food
-
 ⭐ Top Restaurants
-
 📦 Booking & Order Management
-
 🧾 My Orders
-
 🎁 Offers & Discounts
-
 🆘 Help & Support
-
-🛠️ Technologies Used
-
-Programming Language: Java
-
+🛠️ Tech Stack
+Language: Java
 Database: SQLite
-
-UI Design: XML
-
+UI: XML
 IDE: Android Studio
-
 Architecture: Activity-based
-
-🗂️ App Modules
-
+🗂️ Modules
 Splash Screen
-
-Login Module
-
-Signup Module
-
-Home Module
-
-Order Food Module
-
-Top Restaurants Module
-
-Booking Module
-
-My Orders Module
-
-Offers Module
-
-Help & Support Module
-
-SQLite Database Handler
-
-🖼️ App Screenshots
-
-Screenshots taken from Android Emulator / Physical Device
-
-### Splash Screen
-![Splash Screen](Screenshots/splash.jpg)
-
-### Login Screen
-![Login Screen](Screenshots/login.jpg)
-
-### Signup Screen
-![Signup Screen](Screenshots/signup.jpg)
-
-### Home Screen
-![Home Screen](Screenshots/home.jpg)
-
-### Order Food
-![Order Food](Screenshots/order.jpg)
-
-### Top Restaurants
-![Top Restaurants](Screenshots/toprestaurants.jpg)
-
-### Booking
-![Booking](Screenshots/booking.jpg)
-
-### Booking (Step 2)
-![Booking 2](Screenshots/booking2.jpg)
-
-### My Orders
-![My Orders](Screenshots/myorders.jpg)
-
-### Offers
-![Offers](Screenshots/offer.jpg)
-
-### Help & Support
-![Help & Support](Screenshots/help.jpg)
-
-
-🗄️ Database Details (SQLite)
-
-The app uses SQLite for local data storage.
-
-Stored Data:
-
-User Information
-
-Food Items
-
-Orders
-
-Bookings
-
+Login & Signup
+Home
+Order Food
+Top Restaurants
+Booking
+My Orders
 Offers
+Help & Support
+SQLite Database Handler
+🖼️ Screenshots
 
-▶️ How to Run the Project
+Clean grid layout for better presentation
 
-Clone the repository:
+📱 App Preview
+<table> <tr> <td><img src="Screenshots/splash.jpg" width="200"/></td> <td><img src="Screenshots/login.jpg" width="200"/></td> <td><img src="Screenshots/signup.jpg" width="200"/></td> </tr> <tr> <td align="center">Splash</td> <td align="center">Login</td> <td align="center">Signup</td> </tr> <tr> <td><img src="Screenshots/home.jpg" width="200"/></td> <td><img src="Screenshots/order.jpg" width="200"/></td> <td><img src="Screenshots/toprestaurants.jpg" width="200"/></td> </tr> <tr> <td align="center">Home</td> <td align="center">Order Food</td> <td align="center">Top Restaurants</td> </tr> <tr> <td><img src="Screenshots/booking.jpg" width="200"/></td> <td><img src="Screenshots/booking2.jpg" width="200"/></td> <td><img src="Screenshots/myorders.jpg" width="200"/></td> </tr> <tr> <td align="center">Booking</td> <td align="center">Booking Step 2</td> <td align="center">My Orders</td> </tr> <tr> <td><img src="Screenshots/offer.jpg" width="200"/></td> <td><img src="Screenshots/help.jpg" width="200"/></td> <td></td> </tr> <tr> <td align="center">Offers</td> <td align="center">Help & Support</td> <td></td> </tr> </table>
+🗄️ Database (SQLite)
 
+The app uses SQLite for local storage.
+
+Stores:
+User Information
+Food Items
+Orders
+Bookings
+Offers
+▶️ Run Locally
 git clone https://github.com/your-username/food-ordering-system-android.git
-
-
-Open the project in Android Studio
-
-Let Gradle sync completely
-
-Run the app on:
-
-Android Emulator
-
-OR Physical Android Device (USB Debugging enabled)
-
-🎯 Future Enhancements
-
-Online payment integration
-
-Admin dashboard
-
-Order tracking
-
-Push notifications
-
-Cloud database (Firebase / MySQL)
-
-Rating & review system
-
+Steps:
+Open in Android Studio
+Wait for Gradle Sync
+Run on:
+Emulator
+OR Physical Device (USB Debugging ON)
+🎯 Future Improvements
+💳 Online Payment Integration
+🧑‍💼 Admin Dashboard
+📍 Order Tracking
+🔔 Push Notifications
+☁️ Cloud Database (Firebase / MySQL)
+⭐ Rating & Reviews
 👨‍💻 Author
 
 Bibek Yogi
 
-GitHub: https://github.com/BibekYogi6462
+🔗 GitHub: https://github.com/BibekYogi6462
 
 📄 License
 
-This project is developed for educational and academic purposes.
+This project is for educational purposes only.
